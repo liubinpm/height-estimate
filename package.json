@@ -1,0 +1,26 @@
+{
+  "name": "height-estimate",
+  "version": "0.1.0",
+  "description": "Estimate a child's adult height two ways: Tanner mid-parental height and CDC growth-chart percentile projection. Plain JavaScript, no dependencies.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cdc-stature-lms.json"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "height-calculator",
+    "growth-chart",
+    "cdc",
+    "parenting",
+    "mid-parental-height"
+  ],
+  "author": "howtallai",
+  "license": "MIT",
+  "homepage": "https://howtallai.com/",
+  "engines": {
+    "node": ">=14"
+  }
+}
